@@ -7,8 +7,8 @@
 <title>Login Page</title>
 <style>
   body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Times New Roman", serif;
+    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,14 +18,19 @@
   }
   .login-container {
     background-color: #ffffff;
-    border-radius: 8px;
+    border: 1px solid #ccc;
     padding: 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     width: 300px;
   }
   .login-container h2 {
     text-align: center;
+    color: #333;
     margin-bottom: 20px;
+  }
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
   }
   .login-form input {
     width: 100%;
@@ -37,7 +42,7 @@
   .login-form button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #4caf50;
     color: #ffffff;
     border: none;
     border-radius: 4px;
